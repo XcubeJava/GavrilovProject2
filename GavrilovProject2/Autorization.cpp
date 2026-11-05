@@ -1,5 +1,5 @@
 #include "Autorization.hpp"
-#include "ServiceFunctions.cpp"
+#include "ServiceFunctions.hpp"
 void Start()
 {
 
@@ -7,7 +7,10 @@ void Start()
 	{
 		if (login())
 		{
+			if (currentStatus == L"SuperAdmin")
+			{
 
+			}
 		}
 
 		else

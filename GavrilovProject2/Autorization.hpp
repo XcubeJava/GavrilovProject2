@@ -5,9 +5,9 @@
 #include <Windows.h>
 #include <string>
 
-#include <string>
-#include <string>
-#include <string>
+#include "Accounts.hpp"
+#include "ServiceFunctions.hpp"
+
 void Start();
 
 bool login();

@@ -13,6 +13,4 @@ extern std::wstring* passArr;
 extern std::wstring* StatusArr;
 extern unsigned int* userId;
 
-int asdds();
-
 #endif // !_AUTORIZATION_HPP
