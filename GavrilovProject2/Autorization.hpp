@@ -6,10 +6,17 @@
 #include <string>
 
 #include "Accounts.hpp"
+#include "storage.hpp"
 #include "ServiceFunctions.hpp"
 
 void Start();
 
 bool login();
+
+void SuperAdminMenu();
+
+void AdminMenu();
+
+void UserMenu();
 
 #endif // !_AUTORIZATION_HPP

@@ -5,12 +5,12 @@
 
 extern size_t userSize;
 extern size_t currentId;
-extern std::wstring* currentStatus;
+extern std::wstring currentStatus;
 
 
 extern std::wstring* loginArr;
 extern std::wstring* passArr;
 extern std::wstring* StatusArr;
-extern unsigned int* userId;
+extern size_t* userId;
 
 #endif // !_AUTORIZATION_HPP
