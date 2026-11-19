@@ -103,7 +103,7 @@ void SuperAdminMenu()
         }
         else if (choose == L"3")
         {
-            AddProduct()
+            AddProduct();
         }
         else if (choose == L"4")
         {
